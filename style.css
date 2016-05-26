@@ -12,29 +12,15 @@
   padding: 0;
 }
 
-header,
-section,
-ul,
-.float-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%;
-}
 ul {
   position: absolute;
   list-style: none;
   top: 10px;
+  width: 40px;
 }
 ul li {
   display: inline-block;
   margin: 2px;
-  width: 40px;
 }
 ul a {
   cursor: pointer;
@@ -56,7 +42,6 @@ ul svg {
 }
 
 i {
-  display: block;
   cursor: pointer;
 }
 
@@ -195,6 +180,9 @@ a {
 
 @media (max-width: 400px) {
   h1 {
-    font-size: 3em;
+    font-size: 3rem;
+  }
+  #paragraph {
+    font-size: 1rem;
   }
 }
