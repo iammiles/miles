@@ -17,13 +17,19 @@ body {
   bottom: 7%;
   text-align: right;
   font-size: 40px;
-  font-family: 'Lato', sans-serif;
   color: #333;
 }
 
 #title {
-  opacity: 0.3;
   margin-top: -10px;
+}
+
+.sub-text {
+  opacity: 0.3;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -37,7 +43,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-box-align: center;
   flex-flow: column nowrap;
   background-color: #333;
   opacity: 0;
@@ -45,7 +50,6 @@ a {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  border: 1px solid #FFF;
   transition: opacity 1s ease,z-index 0.01s cubic-bezier(0.77, 0, 0.175, 1);
 
 }
@@ -62,19 +66,34 @@ a {
 }
 .menu-close {
   position: absolute;
-  bottom: 0;
-  letter-spacing: 34;
+  top: 0;
+  left: 0;
 }
 .menu > a:before {
   content: '+';
-  padding-right: 0.75em;
+  padding-right: 10px;
 }
 
 .modal > a:before {
   content: '-';
-  padding-right: 0.75em;
+  padding-right: 10px;
 }
 
+
+.title-text {
+  text-align: center;
+}
+
+.content {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-text {
+  width: 50%;
+}
 
 @media only screen and (max-width: 868px) {
   #splash {
@@ -84,15 +103,16 @@ a {
     left: 25px;
     font-size: 20px;
   }
+  .content-text {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 468px) {
   #splash {
     font-size: 18px;
   }
+  .content-text {
+    width: 90%;
+  }
 }
-
-/*
-blue: #76d4fb
-another blue: #3598d6
-*/
