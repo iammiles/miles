@@ -5,61 +5,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
-      <!-- @TODO: Make the icons grow onhover -->
-      <ul>
-        <li>
-          <a href="mailto:iammiles@protonmail.com">
-            <span>
-              <svg viewBox="0 0 512 512"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="https://medium.com/@iammiles">
-            <span>
-              <svg viewBox="0 0 800 800">
-                <path d="M650 267v328c0 14-12 20-28 12l-139-70 167-270z" fill-opacity=".4" />
-                <path d="M374 360l101-164c4-7 14-10 22-6l153 77-167 270-109-177z" fill-opacity=".6" />
-                <path d="M483 537l-170-85 4-185 166 270z" fill-opacity=".8" />
-                <path d="M317 595c0 14-10 20-23 14l-130-65c-8-4-14-13-14-22V204c0-11 7-17 18-12l149 75v328z" />
-              </svg>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/iammiles">
-            <span>
-              <svg viewBox="0 0 800 800">
-                <path d="M400 139c144 0 260 116 260 260 0 115-75 213-178 247-9 3-17-2-17-13v-71c0-35-18-48-18-48 57-6 119-28 119-128 0-44-27-70-27-70s14-29-2-69c0 0-22-7-72 27-42-12-88-12-130 0-50-34-72-27-72-27-16 40-2 69-2 69s-27 26-27 70c0 100 62 122 119 128 0 0-14 10-17 35-15 7-53 18-76-22 0 0-13-25-39-27 0 0-26 0-2 16 0 0 17 8 29 38 0 0 16 51 88 35v44c0 11-9 16-18 13-103-34-178-132-178-247 0-144 116-260 260-260z"/>
-              </svg>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/hashtag_miles">
-            <span>
-              <svg viewBox="0 0 800 800">
-                <path d="M679 239s-21 34-55 57c7 156-107 329-314 329-103 0-169-50-169-50s81 17 163-45c-83-5-103-77-103-77s23 6 50-2c-93-23-89-110-89-110s23 14 50 14c-84-65-34-148-34-148s76 107 228 116c-22-121 117-177 188-101 37-6 71-27 71-27s-12 41-49 61c30-2 63-17 63-17z"/>
-              </svg>
-            </span>
-          </a>
-        </li>
-      </ul>
-      <h1>MILES MCDANIEL</h1>
-      <div class="arrow bounce">
-        <i class="fa fa-angle-down fa-5x" id="next-page" aria-hidden="true"></i>
+    <div class="modal" id="modal">
+      <div class="modal-row">
+        <div><a href="javascript:void(0)">About</a></div>
+        <div><a href="javascript:void(0)">Blog</a></div>
+        <div><a href="javascript:void(0)">Adventures</a></div>
+        <div><a href="javascript:void(0)">Projects</a></div>
+        <div><a href="javascript:void(0)">Contact</a></div>
       </div>
-    </header>
-    <!-- Next Screen -->
-    <section id="about">
-      <div id="paragraph">I'm a Las Vegas based developer, currently working at <a href="https://www.galavantier.com">
-        Galavantier</a>. <br/>
-        My hobbies include climbing, backpacking, and amateur astronomy.</div>
-    </section>
+     <a href="javascript:void(0)" class="menu-close" id="menu-close">Close</a>
+    </div>
+    <div id="splash">
+      <h1>Miles McDaniel</h1>
+      <h1 id="title">Software Developer</h1>
+    </div>
+    <div class="menu">
+      <a href="javascript:void(0)" id="menu-open">Menu</a>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
