@@ -63,7 +63,6 @@ a {
   width: 100vw;
   height: 100vh;
   transition: opacity 1s ease,z-index 0.01s cubic-bezier(0.77, 0, 0.175, 1);
-
 }
 
 .modal-row {
