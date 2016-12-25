@@ -5,7 +5,6 @@
   padding: 0;
 }
 
-<<<<<<< HEAD
 body {
   background-color: #FFF;
   font-family: 'Roboto Mono', monospace;
@@ -19,17 +18,6 @@ body {
   text-align: right;
   font-size: 40px;
   color: #333;
-=======
-ul {
-  position: absolute;
-  list-style: none;
-  top: 10px;
-  width: 40px;
-}
-ul li {
-  display: inline-block;
-  margin: 2px;
->>>>>>> 5a7ea39e28ef71f0c8d97fcfc9de7d614f614eb9
 }
 
 #title {
