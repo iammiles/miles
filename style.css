@@ -11,7 +11,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-#splash {
+.splash {
   position: absolute;
   right: 7%;
   bottom: 7%;
@@ -95,7 +95,7 @@ a {
 }
 
 @media only screen and (max-width: 868px) {
-  #splash {
+  .splash {
     text-align: left;
     position: absolute;
     top: 25px;
@@ -108,7 +108,7 @@ a {
 }
 
 @media only screen and (max-width: 468px) {
-  #splash {
+  .splash {
     font-size: 18px;
   }
   .content-text {
