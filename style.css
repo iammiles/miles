@@ -9,6 +9,13 @@ body {
   font-family: 'Helvetica', 'Avenir', 'Arial', sans-serif;
   font-weight: lighter;
   text-rendering: optimizeLegibility;
+  color: #0b0c0e;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: underline;
+  color: #0b0c0e;
 }
 
 h2 {
@@ -27,6 +34,7 @@ p {
 .navigation > a {
   text-transform: lowercase;
   color: #0b0c0e;
+  font-weight: normal;
   text-decoration: none;
 }
 
